@@ -1,0 +1,10 @@
+# Site settings
+title: Warehouse Now > Stock Management Software
+email: joncarlmatthews@gmail.com
+description: "Warehouse Now | Stock Management Software"
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
