@@ -68,15 +68,6 @@ html, body {
         border-radius: 2px;       
     }
 
-    .desc {
-        font-size:1.5em;
-        font-weight:100;
-        text-transform:uppercase;
-        text-align:center;
-        font-family:'Roboto';
-        margin-top:80px;
-    }
-
 }
 
 /* Medium devices (desktops, 992px and up) */
