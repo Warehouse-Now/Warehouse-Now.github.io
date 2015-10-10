@@ -7,11 +7,16 @@ html {
     background-size: cover;
     font-family:'Roboto', sans-serif;
     color:#ffffff;
+    box-sizing: border-box;
 }
 html, body {
     padding:0;
     margin:0;
     height:100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 .inner {
@@ -27,11 +32,24 @@ html, body {
 .desc {
     font-size:1.5em;
     font-weight:100;
-    text-transform:uppercase;
     text-align:center;
     font-family:'Roboto';
     margin-top:80px;
     text-align:center;
+}
+
+.desc span {
+    text-transform:uppercase;
+}
+
+.info {
+    position:absolute;
+    bottom:0;
+    text-align:center;
+    width:100%;
+    font-family:'Roboto';
+    font-weight:100;
+    padding-bottom:20px;
 }
 
 
@@ -55,17 +73,17 @@ html, body {
         width:300px;
     }
     .logo-wrapper {
-        /*padding:30px;
-        border:solid 1px #b9b9b9;
-        -webkit-border-radius: 3px; 
-        -moz-border-radius: 3px; 
-        border-radius: 3px;*/
         margin:0 auto;
         padding:30px;
         background:rgba(0,0,0,.5);
         -webkit-border-radius: 2px; 
         -moz-border-radius: 2px; 
         border-radius: 2px;       
+    }
+
+    .info {
+        text-align:right;
+        padding-right:20px;
     }
 
 }
