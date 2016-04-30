@@ -1710,7 +1710,7 @@ p {
   font-weight: 300;
   font-size: 24px;
   line-height: 30px;
-  color: #546e7a;
+  color: #0b2942;
 }
 
 @media (min-width: 1200px) {
@@ -14120,7 +14120,7 @@ div.direction-md-rtl {
 }
 
 .text-dark-variant-2 {
-  color: #546e7a;
+  color: #0b2942;
 }
 
 .text-dark-variant-3 {
@@ -14630,7 +14630,7 @@ div.direction-md-rtl {
 
 .bg-lighter {
   background: #f5f5f5;
-  color: #546e7a;
+  color: #0b2942;
 }
 
 .bg-lighter.text-darker-clr {
