@@ -60,3 +60,7 @@ sup.tm {
 .rd-navbar-fullwidth .rd-navbar-nav > li > a {
   font-size:18px;
 }
+
+.page-footer .list-inline > li a {
+  color:#87c5dd;
+}
