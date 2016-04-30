@@ -1,0 +1,54 @@
+/********************************************/
+/* Logo */
+/********************************************/
+.rd-navbar-brand .brand-name,
+.rd-navbar-fixed .rd-navbar-brand .brand-name {
+  display:block;
+  font-size:16px;
+  line-height:18px;
+  background: url(../images/WarehouseNow-logo-device__dark.png);
+  background-size: 40px 27px;
+  background-repeat: no-repeat;
+  width:40px;
+  height:27px;
+}
+.rd-navbar-brand .brand-name span {
+  display:none;
+}
+.rd-navbar-fixed .rd-navbar-brand {
+  padding-left:0;
+}
+.rd-navbar-brand {
+  margin-top:11px;
+}
+
+
+@media (min-width: 768px) {
+
+  .rd-navbar-brand {
+    margin-top:0;
+  }
+  .rd-navbar-brand .brand-name {
+    margin: 0 auto;
+    background-size: 67px 45px;
+    width:67px;
+    height:45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .rd-navbar-brand .brand-name {
+    background: url(../images/WarehouseNow-logo-device.png);
+    background-size: 75px 50px;
+    width:75px;
+    height:50px;
+  }
+}
+
+/********************************************/
+/* Main nav */
+/********************************************/
+.rd-navbar-static .rd-navbar-nav > li > a, 
+.rd-navbar-fullwidth .rd-navbar-nav > li > a {
+  font-size:18px;
+}
