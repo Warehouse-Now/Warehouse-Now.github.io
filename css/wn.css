@@ -1,3 +1,6 @@
+/********************************************/
+/* Typography */
+/********************************************/
 .brandon {
   font-family: "brandon-grotesque", sans-serif;
 }
@@ -64,6 +67,19 @@ sup.tm {
   font-size:18px;
 }
 
+/********************************************/
+/* Pricing */
+/********************************************/
+.bg-dark-var1 {
+  background:#0f3b60;
+}
+.list-unstyled > li:last-child .link {
+  background-color:#1d70b7;
+}
+
+/********************************************/
+/* Main nav */
+/********************************************/
 .page-footer .list-inline > li a {
   color:#87c5dd;
 }

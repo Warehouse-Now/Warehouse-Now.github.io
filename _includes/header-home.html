@@ -1,0 +1,29 @@
+<!--The Main Wrapper-->
+<div class="page">
+    
+  <!--
+  ========================================================
+                          HEADER
+  ========================================================
+  -->
+  <header class="page-header">
+
+    {% include navbar.html %}
+
+    <section>
+      <!--Swiper-->
+      <div data-autoplay="5000" data-slide-effect="fade" data-loop="false" class="swiper-container swiper-slider">
+        <div class="jumbotron text-center">
+          <img src="{{ site.url }}/images/WarehouseNow-Logo-device.png"
+                width="300" height="200">
+          <h1>warehouse now<sup class="tm">&trade;</sup></h1>
+          <p class="big">Pick, Pack &amp; Dispatch in the 21st Century.</p>
+        </div>
+        <div class="swiper-wrapper">
+          <div data-slide-bg="images/header-1.jpg" class="swiper-slide">
+            <div class="swiper-slide-caption"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
