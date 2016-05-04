@@ -21,11 +21,11 @@
       <div class="rd-navbar-nav-wrap">
         <!--RD Navbar Nav-->
         <ul class="rd-navbar-nav">
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/is">About</a></li>
-          <li><a href="/pricing">Pricing</a></li>
-          <li><a href="/tech">Technology</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li {% if page.url == "/" %}class="active"{% endif %}><a href="/">Home</a></li>
+          <li {% if page.url == "/is/" %}class="active"{% endif %}><a href="/is">About</a></li>
+          <li {% if page.url == "/pricing/" %}class="active"{% endif %}><a href="/pricing">Pricing</a></li>
+          <li {% if page.url == "/tech/" %}class="active"{% endif %}><a href="/tech">Technology</a></li>
+          <li {% if page.url == "/contact/" %}class="active"{% endif %}><a href="/contact">Contact</a></li>
         </ul>
         <!--END RD Navbar Nav-->
       </div>

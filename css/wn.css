@@ -83,3 +83,18 @@ sup.tm {
 .page-footer .list-inline > li a {
   color:#87c5dd;
 }
+
+.swiper-container {
+  position:relative;
+}
+.explanation {
+  position: absolute;
+  bottom:-40px;
+  text-align: center;
+  width:100%;
+}
+@media (min-width: 1200px) {
+   .explanation {
+    bottom:-100px;
+  }
+}
