@@ -3,7 +3,7 @@ title: Warehouse Now > Stock Management Software &amp; WMS
 email: joncarlmatthews@gmail.com
 description: "Warehouse Now | Stock Management Software | WMS"
 baseurl: ""
-url: "http://127.0.0.1:4000"
+url: "http://warehouse-now.com"
 
 # Build settings
 markdown: kramdown

@@ -1247,3 +1247,10 @@ $('#myTabs2 a').click(function (e) {
     }
 
 })(jQuery);
+
+$(document).ready(function() {
+    var parentHeight    = $('#center-branding').parent('div').height();
+    var eleHeight       = $('#center-branding').height();
+    
+    $('#center-branding').css('top', ((parentHeight / 2) - (eleHeight / 2)) + "px");
+});

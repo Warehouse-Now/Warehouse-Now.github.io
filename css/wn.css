@@ -49,7 +49,7 @@ sup.tm {
 
 @media (min-width: 1200px) {
   .rd-navbar-brand .brand-name {
-    background: url(../images/WarehouseNow-logo-device.png);
+    /*background: url(../images/WarehouseNow-logo-device.png);*/
     background-size: 75px 50px;
     width:75px;
     height:50px;
@@ -103,15 +103,8 @@ sup.tm {
   width:100%;
 }
 .logo-text {
-  /*text-shadow: 0 2px 0 rgba(255, 255, 255, 0.4);*/
-  color:#ffffff !important;
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.4);
 }
-.explanation {
-  position: absolute;
-  bottom:50px;
-  left:0;
-  text-align: center;
-  width:100%;
-  z-index:2;
-  font-size:25px;
+.swiper-container .jumbotron {
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.4);
 }

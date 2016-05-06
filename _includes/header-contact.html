@@ -1,0 +1,73 @@
+<!--The Main Wrapper-->
+<div class="page">
+    
+  <!--
+  ========================================================
+                          HEADER
+  ========================================================
+  -->
+    <header class="bg-image bg-image-2 well-inset-3">
+        
+        {% include navbar.html %}
+
+        <section class="text-center">
+            <div class="jumbotron text-center offset-large">
+                <h1><small>YOU SHOULD GET IN TOUCH</small>We're ready when you are</h1>
+            </div>
+        </section>
+
+        <!--Start section-->
+        <section class="well well-sm">
+            <div class="container">
+            <div class="row flow-offset-1">
+                <div class="col-md-8 btn-shadow inset-sm-min img-rounded bg-white">
+                <h5 class="text-center">GET IN TOUCH</h5>
+                <form class="row label-insets rd-mailform" action="bat/rd-mailform.php" method="post">
+                    <!--RD Mailform Type-->
+                    <input type="hidden" value="contact" name="form-type">
+                    <!--END RD Mailform Type-->
+                    <div class="form-group col-sm-6 mfInput">
+                    <label class="text-uppercase font-secondary form-label rd-input-label" for="exampleInputText1">First Name</label>
+                    <input type="text" class="form-control" id="exampleInputText1" data-constraints="@NotEmpty @LettersOnly" name="name" placeholder="Your First Name">
+                    <span class="mfValidation"></span></div>
+                    <div class="form-group col-sm-6 mfInput">
+                    <label class="text-uppercase font-secondary" for="exampleInputText2">Last Name</label>
+                    <input type="text" class="form-control" id="exampleInputText2" data-constraints="@NotEmpty @LettersOnly" name="name2" placeholder="Your Last Name">
+                    <span class="mfValidation"></span></div>
+                    <div class="form-group col-sm-12 mfInput">
+                    <label class="text-uppercase font-secondary" for="exampleTextarea">your message</label>
+                    <textarea class="form-control" data-constraints="@NotEmpty" name="message" placeholder="Write your message here" rows="3" id="exampleTextarea"></textarea>
+                    <span class="mfValidation"></span></div>
+                    <div class="form-group col-sm-6 mfInput">
+                    <label class="text-uppercase font-secondary" for="exampleInputEmail1">E-mail</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" data-constraints="@NotEmpty @Email" name="email" placeholder="E-mail">
+                    <span class="mfValidation"></span></div>
+                    <div class="col-sm-6">
+                    <button class="btn btn-primary btn-xs round-xl btn-block form-el-offset-1" type="submit">Send message</button>
+                    <div class="mfInfo mfProgress"><span class="cnt"></span><span class="loader"></span><span class="msg"></span></div>
+                    </div>
+                </form>
+                </div>
+                <div class="col-md-4 text-center text-md-left">
+                <address class="contact-block inset-sm-min-2 img-rounded bg-white btn-shadow">
+                    <dl>
+                    <dt class="h6">ADDRESS</dt>
+                    <dd>Warehouse Now LTD <br>The Loft <br>63 Turntable Place <br>Westbury <br>Wilts <br>BA13 4GB</dd>
+                    
+                    <dt class="h6">COMPANY NUMBER</dt>
+                    <dd>09620075</dd>
+                    
+                    <dt class="h6">E-MAIL</dt>
+                    <dd><a href="mailto:#">hello@warehouse-now.com</a></dd>
+                    </dl>
+                    <ul class="list-inline list-inline-3">
+                    <li><a class="fa-facebook-square" href="https://www.facebook.com/warehousenow"></a></li>
+                    <li><a class="fa-twitter-square" href="https://www.twitter.com/warehousenow"></a></li>
+                    </ul>
+                </address>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--End section-->
+    </header>
