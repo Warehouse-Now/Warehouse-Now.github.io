@@ -49,11 +49,14 @@ sup.tm {
 
 @media (min-width: 1200px) {
   .rd-navbar-brand .brand-name {
-    /*background: url(../images/WarehouseNow-logo-device.png);*/
+    background: url(../images/WarehouseNow-logo-device.png);
     background-size: 75px 50px;
     width:75px;
     height:50px;
   }
+}
+.rd-navbar--is-stuck .brand-name {
+  background-image: url(../images/WarehouseNow-logo-device__dark.png);
 }
 
 /********************************************/
